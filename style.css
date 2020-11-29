@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+:root{
+    --primary-color: #F472B6;
+    --secondary-color: #831843;
+}
+body{
+    margin: 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+h1{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 1rem;
+}
+
+.content-width{
+    text-align: center;
+    margin: auto;
+    max-width: 650px;
+    padding: 1rem;
+}
+
+#txt-input{
+    width: 80%;
+    height: 20vh;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+}
+
+#btn-translate{
+    margin: 1rem 37%;
+    width: 30%;
+    height: 8vh;
+    border-radius: 1rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: larger;
+}
+
+#btn-translate:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+#outputshown{
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: large;
+}
+
+#output-text{
+    text-align: center;
+    padding-top:1rem;
+    width: 80%;
+    height: 20vh;
+    border: 1px solid;
+    margin: 1rem 10%;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+
+.footer h3{
+    color: var(--secondary-color);
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+.footer li{
+    display: inline;
+    padding: 0 1rem;
+    margin-right: 1.5rem;
+    
+}
+
+.footer a{
+    text-decoration: none;
+}
